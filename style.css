@@ -1,0 +1,48 @@
+body {
+    
+}
+.g{
+    width:100px;
+    position:absolute ;
+    height:100px;
+    margin:auto ;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    border-radius:50%;
+    border:40px solid transparent ;
+}
+#red{
+    z-index:4;
+    transform:rotateZ(-7deg);
+    border-top:40px solid rgb(200,50,50);
+}
+#yellow{
+    z-index:3;
+    transform:rotateZ(-90deg);
+    border-top:40px solid yellow;
+}
+#green{
+    z-index:2;
+    transform:rotateZ(-173deg);
+    border-top:40px solid rgb(10,250,10);
+}
+#blue{
+    z-index:1;
+    width:110px;
+    position:absolute ;
+    top:9px;
+    left:68px;
+    height:40px;
+    bottom:0;
+    right:0;
+    margin:auto ;
+    background-color:blue;
+    border-radius:0 0 50px 0;
+}
+#blueblue{
+    z-index:1;
+    transform:rotateZ(125deg);
+    border-top:40px solid rgb(0,0,255);
+}
